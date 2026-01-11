@@ -10,7 +10,7 @@ const Header = () => {
           {/* Top Bar - can be added later */}
           <div className="clearfix"></div>
 
-          <div className="mg-nav-widget-area-back" style={{ backgroundImage: 'url("/images/head-back.jpg")' }}>
+          <div className="mg-nav-widget-area-back" style={{ backgroundImage: 'url("/newsup/images/head-back.jpg")' }}>
             <div className="overlay">
               <div className="inner">
                 <div className="container-fluid">
