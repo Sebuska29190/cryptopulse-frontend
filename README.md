@@ -1,51 +1,55 @@
 # Crypto Pulse Now
 
-A fully functional cryptocurrency news portal built with Next.js (App Router), Tailwind CSS, and Sanity CMS.
+A professional, polished cryptocurrency news portal built with Next.js (App Router), Tailwind CSS, and Sanity CMS.
 
-## Features
+## ✨ Features
 
-- **Homepage**: Displays a list of articles with title, excerpt, featured image, categories, author, and published date
-- **Article Pages**: Individual pages at `/post/[slug]` showing full content, featured image, author, categories, and SEO metadata
-- **Dynamic Fetching**: Articles fetched from Sanity CMS via API
-- **Responsive Design**: Mobile, tablet, and desktop friendly
-- **SEO Optimized**: Meta titles, descriptions, OpenGraph tags, canonical URLs
-- **ISR**: Incremental Static Regeneration with revalidate: 60 for automatic updates
-- **Search**: Functional search component filtering articles by title or category
-- **Dark Theme**: Sleek crypto portal styling with dark mode
+- **🏠 Homepage Hero Section**: Featured latest article with compelling visuals
+- **📰 Latest News Grid**: Clean, responsive article cards with hover effects
+- **📱 Sidebar**: Categories, trending articles, and newsletter signup
+- **🔍 Advanced Search**: Prominent search bar filtering by title and category
+- **📄 Individual Articles**: Beautifully designed article pages with breadcrumbs, author info, and social sharing
+- **🌓 Dark/Light Theme**: Seamless theme switching with localStorage persistence
+- **📱 Fully Responsive**: Optimized for mobile, tablet, and desktop
+- **🎨 Crypto-Themed Design**: Modern color palette and typography suitable for crypto news
+- **⚡ Performance**: ISR with 60-second revalidation for fresh content
+- **🔍 SEO Optimized**: Complete meta tags, OpenGraph, Twitter Cards, and structured data
+- **🚀 Vercel Ready**: Optimized for deployment with environment variables
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Framework**: Next.js 16 with App Router
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS with custom design tokens
 - **CMS**: Sanity CMS (headless backend)
-- **Deployment**: Vercel ready
-- **Language**: TypeScript
+- **Deployment**: Vercel with automatic builds
+- **Language**: TypeScript with strict type checking
+- **Fonts**: Inter + JetBrains Mono for modern typography
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 crypto-news-portal/
 ├── app/
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── post/
-│       └── [slug]/
-│           └── page.tsx
+│   ├── layout.tsx           # Root layout with navigation and footer
+│   ├── page.tsx            # Homepage with hero and article grid
+│   └── post/[slug]/
+│       └── page.tsx        # Individual article pages
 ├── components/
-│   ├── ArticleCard.tsx
-│   └── SearchComponent.tsx
+│   ├── ArticleCard.tsx     # Professional article cards with hover effects
+│   ├── SearchComponent.tsx # Enhanced search with icons and styling
+│   └── ThemeToggle.tsx     # Dark/light theme switcher
 ├── lib/
-│   ├── sanity.ts
-│   ├── fetchPosts.ts
-│   ├── samplePosts.json
-│   └── schema.ts
+│   ├── sanity.ts           # Sanity CMS client configuration
+│   ├── fetchPosts.ts       # API functions for fetching articles
+│   ├── samplePosts.json    # Example article data
+│   └── schema.ts           # Sanity content schema
 ├── styles/
-│   └── globals.css
-├── public/
-├── .env.local
-├── package.json
-├── next.config.ts
-├── tailwind.config.js
+│   └── globals.css         # Global styles with custom CSS variables
+├── public/                 # Static assets
+├── .env.local             # Environment variables
+├── package.json           # Dependencies and scripts
+├── next.config.ts         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
 └── README.md
 ```
 
