@@ -1,0 +1,79 @@
+[00:00:03.984] Server  LOG     
+[00:00:03.985] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:03.986] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:03.986] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:03.987] Server  LOG     
+[00:00:03.987] Server  LOG       The following mandatory changes were made to your tsconfig.json:
+
+[00:00:03.988] Server  LOG       	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:03.988] Server  LOG     
+[00:00:04.687] Server  LOG     ✓ Ready in 3.3s
+[00:00:19.025] Server  LOG     ○ Compiling / ...
+[00:00:29.029] Server  ERROR   ⨯ ./app/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from 'next'
+  2 | import { Inter } from 'next/font/google'
+> 3 | import './globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const inter = Inter({ subsets: ['latin'] })
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:40.016] Browser ERROR   uncaughtError: Error: ./app/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from 'next'
+  2 | import { Inter } from 'next/font/google'
+> 3 | import './globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const inter = Inter({ subsets: ['latin'] })
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:40.017] Browser WARN    Backpack couldn't override `window.ethereum`.
+[00:00:40.452] Browser ERROR   ./app/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from 'next'
+  2 | import { Inter } from 'next/font/google'
+> 3 | import './globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const inter = Inter({ subsets: ['latin'] })
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:50.145] Browser ERROR   ./app/layout.tsx:3:1
+Module not found: Can't resolve './globals.css'
+  1 | import type { Metadata } from 'next'
+  2 | import { Inter } from 'next/font/google'
+> 3 | import './globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const inter = Inter({ subsets: ['latin'] })
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:17.099] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (C:\Users\DOMOWY\Desktop\nowy projekt\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:103:5)]
+
+Import trace:
+  Client Component Browser:
+    ./styles/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
