@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "1",
+    "title": "Bitcoin Surges to New All-Time High",
+    "excerpt": "Bitcoin has reached a new all-time high as institutional adoption continues to grow.",
+    "featuredImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-example1"
+      }
+    },
+    "categories": ["Bitcoin", "Market Analysis"],
+    "author": "John Doe",
+    "publishedAt": "2023-10-01T00:00:00Z",
+    "slug": {
+      "current": "bitcoin-surges-new-high"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Bitcoin has broken through previous resistance levels, hitting a new all-time high of $70,000. This surge is attributed to increased institutional investment and positive regulatory developments."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "title": "Ethereum 2.0 Upgrade Completes Successfully",
+    "excerpt": "The highly anticipated Ethereum 2.0 upgrade has been completed, bringing improved scalability and energy efficiency.",
+    "featuredImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-example2"
+      }
+    },
+    "categories": ["Ethereum", "Technology"],
+    "author": "Jane Smith",
+    "publishedAt": "2023-09-28T00:00:00Z",
+    "slug": {
+      "current": "ethereum-2-upgrade-completes"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "children": [
+          {
+            "_type": "span",
+            "text": "The Ethereum network has successfully transitioned to Proof of Stake, reducing energy consumption by 99% and paving the way for future scalability improvements."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "title": "Crypto Regulations Tighten in EU",
+    "excerpt": "New EU regulations on cryptocurrency trading and reporting come into effect next month.",
+    "featuredImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-example3"
+      }
+    },
+    "categories": ["Regulation", "Europe"],
+    "author": "Mike Johnson",
+    "publishedAt": "2023-09-25T00:00:00Z",
+    "slug": {
+      "current": "crypto-regulations-eu-tighten"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "children": [
+          {
+            "_type": "span",
+            "text": "European Union member states are implementing stricter rules for crypto exchanges, requiring enhanced KYC procedures and transaction reporting."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "title": "DeFi Protocols See Record TVL",
+    "excerpt": "Total Value Locked in DeFi protocols has reached an all-time high, signaling growing adoption.",
+    "featuredImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-example4"
+      }
+    },
+    "categories": ["DeFi", "Market Analysis"],
+    "author": "Sarah Wilson",
+    "publishedAt": "2023-09-20T00:00:00Z",
+    "slug": {
+      "current": "defi-protocols-record-tvl"
+    },
+    "content": [
+      {
+        "_type": "block",
+        "children": [
+          {
+            "_type": "span",
+            "text": "Decentralized Finance platforms have locked over $100 billion in assets, driven by innovative yield farming strategies and user-friendly interfaces."
+          }
+        ]
+      }
+    ]
+  }
+]
